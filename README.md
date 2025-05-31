@@ -100,9 +100,16 @@ https://withmartian.github.io/martian-sdk-python/
 # My Edits (Proposed Project Structure) 
 Now I am talking about this subfolder
 
+
 martian-hackathon/          # Root directory for all hackathon work
+
 ├── .env                    # Environment variables
-├── .venv/                  # Virtual environment (will be created by uv, below)
+
+├── .venv/                  # Virtual environment 
+
 ├── martian-sdk-python/     # Cloned SDK repository
+
 └── **project/**              # Your hackathon project directory
+
+
 
