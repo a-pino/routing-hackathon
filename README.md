@@ -3,6 +3,8 @@
 Submission to the [Apart x Martian Router Interpretability Hackathon](https://apartresearch.com/sprints/apart-x-martian-mechanistic-router-interpretability-hackathon-2025-05-30-to-2025-06-01).
 
 
+# Installation 
+
 ## Prerequisites
 - Python 3.9 or higher
 - Git
@@ -72,7 +74,7 @@ MARTIAN_API_KEY=replace-with-our-api-key
 EOL
 ```
 
-# Running the Quickstart Guide
+#  Documentation
 The SDK includes a Jupyter notebook that demonstrates key features and usage patterns:
 
 From your hackathon parent directory, start Jupyter:
@@ -88,3 +90,6 @@ The quickstart guide will walk you through:
 - Working with routers
 - Training and evaluating models
 
+```
+https://withmartian.github.io/martian-sdk-python/
+```
