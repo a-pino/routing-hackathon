@@ -11,13 +11,14 @@ Submission to the [Apart x Martian Router Interpretability Hackathon](https://ap
 - uv - Fast Python package installer and resolver
 
 ## Overall Project Setup 
- ```
+Don't create it yourself -> We're going to create it automatically. 
+
 martian-hackathon/          # Root directory for all hackathon work
 ├── .env                    # Environment variables
 ├── .venv/                  # Virtual environment (will be created by uv, below)
 ├── martian-sdk-python/     # Cloned SDK repository
 └── project/               # Your hackathon project directory
- ```
+ 
 
 ## Installation 
 0. Before you start, Install an extremely fast Python package and project manager, written in Rust.
@@ -96,12 +97,11 @@ https://withmartian.github.io/martian-sdk-python/
 ```
 
 # My Edits (Proposed Project Structure) 
-Now I am talking about 
- ```
+Now I am talking about this subfolder
+
 martian-hackathon/          # Root directory for all hackathon work
 ├── .env                    # Environment variables
 ├── .venv/                  # Virtual environment (will be created by uv, below)
 ├── martian-sdk-python/     # Cloned SDK repository
-└── *project/*               # Your hackathon project directory
- ```
+└── **project/**              # Your hackathon project directory
 
