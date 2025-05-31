@@ -115,6 +115,9 @@ martian-hackathon/          # Root directory for all hackathon work
 
   ### Project Phases
 
+
+> Brief instructions on how to run each phase in `project/src/`.
+
   - **Phase 1 (Define EO components):**  
     Run nothing—just make sure `components.py` has correct model/router definitions.
   - **Phase 2 (Baseline):**  
