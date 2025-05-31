@@ -97,6 +97,16 @@ Docs:
 https://withmartian.github.io/martian-sdk-python/
 ```
 
+Understand Core Martian Concepts:
+- **martian.Model:** Represents your LLM-based experts and judges. You'll define their prompts, model IDs, etc.
+- **martian.Router:** Represents your routing logic. It can use conditions based on model outputs (judge signals) or be an LLM itself.
+- **martian.scan:** The workhorse function to run datasets through your models/routers and collect results.
+- **martian.GroundTruth:** To specify the expected/correct outcomes for comparison.
+- **Datasets:** Martian scan takes a list of dictionaries as a dataset.
+
+
+
+
 # Inside the Project Structure
 Now I am talking about this subfolder
 
@@ -155,3 +165,10 @@ martian-hackathon/          # Root directory for all hackathon work
 
   Any CSV/JSON outputs from `scan(...).to_df().to_csv(...)` go into `logs/`.  
   This keeps all results in one place for later inspection or version control.
+
+
+Let's assume you have:
+- **Expert_A** and **Expert_B** (LLM-based, performing some task).
+- **Judge_Safety:** An LLM-based judge to check for harmful content.
+- **Judge_Quality:** An LLM-based judge to score response quality.
+- **Main_Router:** Decides which expert to use based on judge signals.
