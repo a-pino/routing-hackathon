@@ -13,16 +13,13 @@ Submission to the [Apart x Martian Router Interpretability Hackathon](https://ap
 ## Overall Project Setup 
 Don't create it yourself -> We're going to create it automatically. 
 
+```
 martian-hackathon/          # Root directory for all hackathon work
-
 ├── .env                    # Environment variables
-
 ├── .venv/                  # Virtual environment (will be created by uv, below)
-
 ├── martian-sdk-python/     # Cloned SDK repository
-
 └── project/               # Your hackathon project directory
- 
+ ```
 
 ## Installation 
 0. Before you start, Install an extremely fast Python package and project manager, written in Rust.
