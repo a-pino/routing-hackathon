@@ -97,7 +97,7 @@ Docs:
 https://withmartian.github.io/martian-sdk-python/
 ```
 
-# My Edits (Proposed Project Structure) 
+# Inside the Project Structure
 Now I am talking about this subfolder
 
 
@@ -113,3 +113,42 @@ martian-hackathon/          # Root directory for all hackathon work
 
 
 
+  ### Project Phases
+
+  - **Phase 1 (Define EO components):**  
+    Run nothing—just make sure `components.py` has correct model/router definitions.
+  - **Phase 2 (Baseline):**  
+    ```bash
+    python src/phase2_baseline/baseline_safety.py
+    python src/phase2_baseline/baseline_quality.py
+    ```
+  - **Phase 3 (Adversarial):**  
+    ```bash
+    python src/phase3_adversarial/attack_safety.py
+    python src/phase3_adversarial/attack_quality.py
+    ```
+  - **Phase 4 (Analysis):**  
+    ```bash
+    python src/phase4_analysis/analyze_attacks.py
+    python src/phase4_analysis/visualize_results.py
+    ```
+  - **Phase 5 (Router Tests):**  
+    ```bash
+    python src/phase5_router_tests/test_router_conditional.py
+    python src/phase5_router_tests/test_router_llm.py
+    ```
+  - **Phase 6 (Defenses):**  
+    ```bash
+    python src/phase6_defenses/robust_safety.py
+    python src/phase6_defenses/robust_quality.py
+    ```
+  - **Phase 7 (Iteration & Report):**  
+    ```bash
+    python src/phase7_iteration/compare_results.py
+    ```
+    Then review or edit `src/phase7_iteration/final_report.md`.
+
+  ## Logs
+
+  Any CSV/JSON outputs from `scan(...).to_df().to_csv(...)` go into `logs/`.  
+  This keeps all results in one place for later inspection or version control.
