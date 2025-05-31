@@ -14,9 +14,13 @@ Submission to the [Apart x Martian Router Interpretability Hackathon](https://ap
 Don't create it yourself -> We're going to create it automatically. 
 
 martian-hackathon/          # Root directory for all hackathon work
+
 ├── .env                    # Environment variables
+
 ├── .venv/                  # Virtual environment (will be created by uv, below)
+
 ├── martian-sdk-python/     # Cloned SDK repository
+
 └── project/               # Your hackathon project directory
  
 
