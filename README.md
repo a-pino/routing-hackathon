@@ -72,3 +72,19 @@ MARTIAN_API_KEY=replace-with-our-api-key
 EOL
 ```
 
+# Running the Quickstart Guide
+The SDK includes a Jupyter notebook that demonstrates key features and usage patterns:
+
+From your hackathon parent directory, start Jupyter:
+
+jupyter notebook
+> In Jupyter, navigate to ../martian-sdk-python/quickstart_guide.ipynb
+
+The quickstart guide will walk you through:
+
+- Setting up the Martian client
+- Using the gateway to access various LLM models
+- Creating and using judges
+- Working with routers
+- Training and evaluating models
+
