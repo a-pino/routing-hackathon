@@ -3,7 +3,7 @@
 Submission to the [Apart x Martian Router Interpretability Hackathon](https://apartresearch.com/sprints/apart-x-martian-mechanistic-router-interpretability-hackathon-2025-05-30-to-2025-06-01).
 
 
-# Installation 
+# How to get started (Installation) 
 
 ## Prerequisites
 - Python 3.9 or higher
@@ -90,6 +90,18 @@ The quickstart guide will walk you through:
 - Working with routers
 - Training and evaluating models
 
+Docs: 
 ```
 https://withmartian.github.io/martian-sdk-python/
 ```
+
+# My Edits (Proposed Project Structure) 
+Now I am talking about 
+ ```
+martian-hackathon/          # Root directory for all hackathon work
+├── .env                    # Environment variables
+├── .venv/                  # Virtual environment (will be created by uv, below)
+├── martian-sdk-python/     # Cloned SDK repository
+└── *project/*               # Your hackathon project directory
+ ```
+
