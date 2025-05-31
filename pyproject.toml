@@ -1,0 +1,18 @@
+[project]
+name = "routing-hackathon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipywidgets>=8.1.7",
+    "jupyter>=1.1.1",
+    "mmartian-apart-hack-sdk",
+    "openai>=1.82.1",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+mmartian-apart-hack-sdk = { git = "https://github.com/withmartian/martian-sdk-python.git" }
