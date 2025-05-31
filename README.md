@@ -41,7 +41,6 @@ cd martian-hackathon
 2. Clone the SDK repository:
  ```
 # On Windows (git cmd)
-cd martian-hackathon
 git clone https://github.com/withmartian/martian-sdk-python.git
  ```
 
